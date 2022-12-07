@@ -66,10 +66,10 @@ body {
 
 #intro {
   width: 60%;
-  text-align: center;
+  text-align: left;
   margin: 15% auto;
-  color: blue;
-  font-size: 4em;
+  color: pink;
+  font-size: 2em;
   opacity: 0;
 }
 
@@ -92,14 +92,14 @@ body {
 }
 
 #main {
-  width: 80%;
+  width: 100%;
   margin: -2.5em auto;
   text-align: center;
   font-family: "Poller One", cursive;
-  font-size: 14em;
+  font-size: 10em;
   -webkit-text-fill-color: black;
-  -webkit-text-stroke-color: yellow;
-  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: skyblue;
+  -webkit-text-stroke-width: 10px;
   opacity: 0;
 }
 
@@ -141,7 +141,8 @@ body {
 }
 
 #text p {
-  color: yellow;
+  color: gray;
+  background-color: aquamarine;
   text-align: center;
   letter-spacing: 0.3em;
 }
